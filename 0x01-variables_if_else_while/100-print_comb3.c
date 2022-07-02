@@ -12,11 +12,9 @@ int main(void)
 
 	for (b = 0; b < 90; b++)
 	{
-		for ()
-		{
 			putchar((b / 10) + '0');
 			putchar((b % 10) + '0');
-		}
+		
 		if (b != 89)
 		{
 			putchar(',');
