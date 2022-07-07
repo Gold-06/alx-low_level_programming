@@ -1,7 +1,7 @@
 #include "main.h"
 /**
- * print_number - a function that print an integer
- * #n: input integer
+ * print_number - a function that prints an integer
+ * @n: print int
  * Return: inputted integer
  */
 void print_number(int n)
@@ -26,7 +26,7 @@ void print_number(int n)
 		d /= 10;
 		count *= 10;
 	}
-	for (count >= 1; count /= 10;)
+	for (; count >= 1; count /= 10;)
 	{
 		_putchar(((m / count) % 10) + 48);
 	}
