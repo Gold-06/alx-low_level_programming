@@ -2,6 +2,8 @@
 
 /**
  * main - test function that print if integer is positive or negative
+ * @positive: firts output
+ * @negative: second output
  * Return: 0
  */
 
