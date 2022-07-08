@@ -1,5 +1,6 @@
-#include <stdio.h>
 #include "main.h"
+#include <stdio.h>
+
 /**
  * print_remaining_days - takes a date and prints how many days are
  * left in the year, taki8ng leap years into account
