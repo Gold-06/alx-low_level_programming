@@ -8,7 +8,7 @@ char *leet(char *d)
 {
 	int count = 0, i;
 	int low_case[] = {97, 101, 111, 116, 108};
-	int upper_case[] = {65, 69, 79,79, 84, 76};
+	int upper_case[] = {65, 69, 79, 84, 76};
 	int num[] = {52, 51, 48, 55, 49};
 
 	while (*(d + count) != '\0')
