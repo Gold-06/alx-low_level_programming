@@ -1,5 +1,5 @@
 #include "main.h"
-int squareroot(int n, int i);
+int _sqrt(int, int);
 /**
  * _sqrt_recursion - a function that return the natural
  * square root of a number
@@ -8,33 +8,21 @@ int squareroot(int n, int i);
  */
 int _sqrt_recursion(int n)
 {
-	if (n < 0)
-	{
-		return (-1);
-	}
-	else
-	{
-		return (squareroot(n, (n + 1) / 2));
-	}
+	return (_sqrt(n, 1));
 }
 /**
- * squareroot - checks if perfect square
+ * _sqrt - checks if perfect square
  * @n: input
  * @i: counter
  * Return: Always 0
  */
-int squareroot(int n, int i)
+int _sqrt(int n, int i)
 {
-	if  (i < 1)
-	{
+	int square = i * i;
+
+	if (square > n)
 		return (-1);
-	}
-	else if (i * i == n)
-	{
+	if (square == n)
 		return (i);
-	}
-	else
-	{
-		return (squareroot(n, i - 1));
-	}
+	return (_sqrt(n, i + 1));
 }
