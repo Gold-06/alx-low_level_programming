@@ -23,7 +23,7 @@ int is_palindrome(char *s)
  * @s: input
  * Return: length size
  */
-inth lengthc(char *s)
+int lengthc(char *s)
 {
 	if (*s != '\0')
 	{
@@ -48,9 +48,9 @@ int palindrome(char str[], int st, int end)
 	{
 		return (0);
 	}
-	if (st <== end || st < end + 1)
+	if (st <= end || st < end + 1)
 	{
-		return (palindrome(str, st + 1' end - 1));
+		return (palindrome(str, st + 1, end - 1));
 	}
 	return (1);
 }
