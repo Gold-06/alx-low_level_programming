@@ -23,7 +23,7 @@ int _sqrt_recursion(int n)
  * @i: counter
  * Return: Always 0
  */
-/*int squareroot(int n, int i)
+int squareroot(int n, int i)
 {
 	if  (i < 1)
 	{
@@ -37,4 +37,4 @@ int _sqrt_recursion(int n)
 	{
 		return (squareroot(n, i - 1));
 	}
-}*/
+}
