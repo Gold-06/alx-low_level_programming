@@ -19,6 +19,7 @@ int main(int argc, char *argv[])
 	{
 		return (0);
 	}
+
 	printf("%d\n", change(atoi(argv[1])));
 	return (0);
 }
