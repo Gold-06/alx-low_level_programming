@@ -5,6 +5,7 @@
  * main - Entry point
  * @argc: arguments
  * @argv: array
+ * Return: Always 0
  */
 int main(int argc, char *argv[])
 {
