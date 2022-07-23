@@ -9,21 +9,19 @@
  */
 int main(int argc, char *argv[])
 {
-	int i, sum = 0;
+	int num, digit, sum = 0;
 
-	if (argc < 1)
+	for (num = 1; num < argc; num++)
 	{
-		return (0);
-	}
-
-	for (i = 1; i < argc; i++)
-	{
-		if (!atoi(argv[i]))
+		for (digit = 0; argv[num][digit]; digit++)
 		{
-			printf("%s\n", "Error");
-			return (1);
+			if (argc[num][digit] < '0' || argv[num][digit] > '9')
+			{
+				printf("Error\n");
+				return (1);
+			}
 		}
-		sum += atoi(argv[i]);
+		sum += atoi(argv[num]);
 	}
 	printf("%d\n", sum);
 	return (0);
