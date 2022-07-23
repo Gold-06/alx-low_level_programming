@@ -1,7 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include "main.h"
-int change(int cents);
 /**
  * main - Entry point
  * @argc: arguments
@@ -10,56 +9,41 @@ int change(int cents);
  */
 int main(int argc, char *argv[])
 {
+	int cents, coins = 0;
+
 	if (argc != 2)
 	{
-		printf("%s\n", "Error");
+		printf("Error\n");
 		return (1);
 	}
-	else if (argc < 0)
+	cent = atoi(argv[1]);
+
+	while (cent > 0)
 	{
-		return (0);
+		coins++;
+		if ((cents - 25) >= 0)
+		{
+			cents -= 25;
+			continue;
+		}
+		if ((cent - 10) >= 0)
+		{
+			cents -= 10;
+			continue;
+		}
+		if ((cent - 5) >= 0)
+		{
+			cents -= 5;
+			continue;
+		}
+		if ((cents - 2) >= 0)
+		{
+			cents -= 2;
+			continue;
+		}
+		cents--
 	}
 
-	printf("%d\n", change(atoi(argv[1])));
+	printf("%d\n", coins);
 	return (0);
-}
-/**
- * change - get change
- * @cents: amount of coins from main function
- * Return: change
- */
-int change(int cents)
-{
-	int q = 25, d = 10, n = 5, t = 2, p = 1;
-	int coins;
-
-	while (cents > 0)
-	{
-		while (cents >= q)
-		{
-			cents -= q;
-			coins++;
-		}
-		while (cents >= d)
-		{
-			cents -= d;
-			coins++;
-		}
-		while (coins >= n)
-		{
-			cents -= n;
-			coins++;
-		}
-		while (cents >= t)
-		{
-			cents -= t;
-			coins++;
-		}
-		while (cents >= p)
-		{
-			cents -= p;
-			coins++;
-		}
-	}
-	return (coins);
 }
