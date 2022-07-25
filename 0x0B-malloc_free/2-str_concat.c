@@ -28,14 +28,14 @@ char *str_concat(char *s1, char *s2)
 
 	while (*s1)
 	{
-		array[i] = *s1;
+		array[i] = *s1[i];
 		i++;
 		s1++;
 	}
 
 	while (*s2)
 	{
-		array[i] = *s2;
+		array[i] = *s2[i];
 		i++;
 		s2++;
 	}
