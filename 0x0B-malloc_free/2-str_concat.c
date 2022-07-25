@@ -12,7 +12,7 @@ char *str_concat(char *s1, char *s2)
 	int end1, end2, i = 0;
 	char *array;
 
-	is (s1 == NULL || s2 == NULL)
+	if (s1 == NULL || s2 == NULL)
 		s1 = s2 = "";
 
 	for(end2 = 0; end2 <= *s2; end2++)
