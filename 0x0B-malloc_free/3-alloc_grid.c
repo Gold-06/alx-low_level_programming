@@ -34,13 +34,11 @@ int **alloc_grid(int width, int height)
 			free(iarray);
 			return (NULL);
 		}
-		for (k = 0; k < height; k++)
-		{
-			for (n = 0; n < width; n++)
-			{
+	}
+	for (k = 0; k < height; k++)
+	{
+		for (n = 0; n < width; n++)
 			iarray[k][n] = 0;
-			}
-		}
 	}
 	return (iarray);
 }
