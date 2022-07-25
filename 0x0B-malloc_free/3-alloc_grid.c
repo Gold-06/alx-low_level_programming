@@ -28,7 +28,7 @@ int **alloc_grid(int width, int height)
 		if (iarray == NULL)
 		{
 			free(iarray);
-			return (null);
+			return (NULL);
 		}
 		for (n = 0; n < width; n++)
 		{
