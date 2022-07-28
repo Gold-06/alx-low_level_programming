@@ -3,7 +3,7 @@
 #include <stdlib.h>
 /**
  * _calloc - a function that allocate memory for an array
- * @nmem: array num
+ * @nmemb: array num
  * @size: size
  * Return: 0
  */
