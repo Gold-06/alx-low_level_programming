@@ -37,7 +37,7 @@ char *string_nconcat(char *s1, char *s2, unsigned int n)
 		array[co] = s1[co];
 	for (co_2 = 0; co < j; co_2++)
 	{
-		array[co] = s2[co_2];
+		array[co_2] = s2[co_2];
 		co++;
 	}
 	co++;
