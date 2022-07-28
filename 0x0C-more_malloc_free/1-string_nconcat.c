@@ -10,7 +10,7 @@
  */
 char *string_nconcat(char *s1, char *s2, unsigned int n)
 {
-	charr *array;
+	char *array;
 	unsigned int i, j, co, co_2;
 
 	if (s1 == NULL)
@@ -40,7 +40,7 @@ char *string_nconcat(char *s1, char *s2, unsigned int n)
 		array[co] = s2[co_2];
 		co++;
 	}
-	co++
+	co++;
 		array[co] = '\0';
 	return (array);
 }
