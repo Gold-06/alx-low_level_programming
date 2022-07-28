@@ -3,10 +3,9 @@
 #include <stdlib.h>
 /**
  * _calloc - a function that allocate memory for an array
- *
- * @nmemg: array num
+ * @nmem: array num
  * @size: size
- * @Return: 0
+ * Return: 0
  */
 void *_calloc(unsigned int nmemb, unsigned int size)
 {
