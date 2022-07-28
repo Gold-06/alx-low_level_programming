@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <stdlib.h>
 /**
  * main - Entry point
  * @argc: n arguments
@@ -26,7 +27,7 @@ int main(int argc, char *argv[])
 			}
 		}
 	}
-	mul = atoi(argv[1] * atoi(argv[2]);
+	mul = atoi(argv[1] * atoi(argv[2]));
 		printf("%lu\n", mul);
 		return (0);
 }
