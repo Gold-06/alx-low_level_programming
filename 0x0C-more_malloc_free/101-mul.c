@@ -2,7 +2,7 @@
 /**
  * main - Entry point
  * @argc: n arguments
- * #argv: args
+ * @argv: args
  * Return: int
  */
 int main(int argc, char *argv[])
