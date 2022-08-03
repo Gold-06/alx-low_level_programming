@@ -5,7 +5,7 @@
  * op_add - addition
  * @a: input one
  * @b: input two
- * REturn: 0
+ * Return: 0
  */
 int op_add(int a, int b)
 {
