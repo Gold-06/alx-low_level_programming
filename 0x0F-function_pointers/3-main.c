@@ -2,7 +2,7 @@
 #include <stdlib.h>
 #include "3-calc.h"
 /**
- * main - Entry point
+ * main - get_op_func has operator correlated
  * @argc: arg count
  * @argv: arg vector
  * Return: 0
