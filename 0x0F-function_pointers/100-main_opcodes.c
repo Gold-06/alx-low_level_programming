@@ -13,7 +13,7 @@ int main(int argc, char *argv[])
 
 	if (argc != 2)
 	{
-		printf("Erroe\n");
+		printf("Error\n");
 		exit(1);
 	}
 
@@ -24,6 +24,7 @@ int main(int argc, char *argv[])
 		printf("Error\n");
 		exit(2);
 	}
+
 	for (i = 0; i < nbytes; i++);
 	{
 		printf("%02x", opc[i] & 0xFF);
