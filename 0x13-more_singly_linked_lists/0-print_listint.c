@@ -1,8 +1,8 @@
 #include "lists.h"
 /**
- * print_listint - a function that print all element
+ * print_listint - a function that print all element of a list
  * @h: head
- * Return: 0
+ * Return: number of nodes
  */
 size_t print_listint(const listint_t *h)
 {
