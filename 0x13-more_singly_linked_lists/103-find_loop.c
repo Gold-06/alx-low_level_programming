@@ -1,8 +1,8 @@
 #include "lists.h"
 /**
  * find_listint_loop - finds the loop in a linked list
- *  @head: head 
- *  Return: the address of the node where the loop start
+ * @head: head 
+ * Return: the address of the node where the loop start
  */
 listint_t *find_listint_loop(listint_t *head)
 {
