@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * get_bit -  a function that return the value 
+ * get_bit -  a function that return the value
  * @n: unsigned int
  * @index: index
  * Return: 0
